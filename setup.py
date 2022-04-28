@@ -9,7 +9,7 @@ INSTALL_REQUIRES = ['requests',
 
 setuptools.setup(
     name="adva_module",
-    version="1.3",
+    version="1.0",
     author="Jorge Riveros",
     author_email="christian.riveros@outlook.com",
     license='MIT',
