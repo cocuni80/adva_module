@@ -3,20 +3,20 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-INSTALL_REQUIRES = ['nitro-python',
-                    'paramiko'
+INSTALL_REQUIRES = ['requests',
+                    'urllib3',
                     ]
 
 setuptools.setup(
-    name="netscaler_module",
+    name="adva_module",
     version="1.3",
     author="Jorge Riveros",
     author_email="christian.riveros@outlook.com",
     license='MIT',
-    description='A Python package to get REST API Netscaler Information',
+    description='A Python package to get REST API ADVA Information',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/cocuni80/netscaler_module",
+    url="https://github.com/cocuni80/adva_module",
     packages=setuptools.find_packages(),
     install_requires=INSTALL_REQUIRES,
     classifiers=[

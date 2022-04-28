@@ -1,3 +1,3 @@
-from adva_module.adva import NitroClass
+from adva_module.adva import Adva
 
-__all__ = ("NitroClass",)
+__all__ = ("Adva",)
