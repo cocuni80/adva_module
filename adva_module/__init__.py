@@ -1,3 +1,3 @@
-from adva_module.adva import Adva
+from adva_module.adva import Adva, AdvaError, AdvaResult
 
-__all__ = ("Adva",)
+__all__ = ("Adva", "AdvaError", "AdvaResult")
