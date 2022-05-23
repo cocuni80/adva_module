@@ -231,7 +231,7 @@ class Adva(object):
                 "domain": HISTORY,
                 "token": token,
                 "params": {
-                    '_{};ATRCV+ATTRMT'.format(interface): '',
+                    '{}'.format(interface): '',
                     'timePeriod': '15MIN',
                     'firstRecordNo': '1',
                 }
@@ -259,7 +259,7 @@ class Adva(object):
                 "domain": HISTORY,
                 "token": token,
                 "params": {
-                    '_{};ATRCV+ATTRMT'.format(interface): '',
+                    '{}'.format(interface): '',
                     'timePeriod': '24HOUR',
                     'firstRecordNo': '1',
                 }
